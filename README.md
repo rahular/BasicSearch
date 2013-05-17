@@ -1,16 +1,12 @@
-## Basic Search - A simple positional/kgram based Search Engine.
+## Basic Search - A positional/kgram based Search Engine.
 
 ### Usage
-1. To run the program and get an interactive interface, type:
-> ./main.py
+1. To run the program and get an interactive interface, type: `./main.py`
 
-2. A set of books (text files) should be kept in the ./books folder from which the program builds the indices. Such a set is available [here](http://courses.cse.tamu.edu/caverlee/csce670/hw/books.zip).)
-
+2. A set of books should be kept in the ./books folder from which the program builds the indices. Such a set is available [here](http://courses.cse.tamu.edu/caverlee/csce670/hw/books.zip)
 3. To search for something, type your query into the command-line:
-> hello 
-OR
-> h*o 
-and any other combinations (only * supported)
+`what` OR `w*t` OR `*hat` OR `wha*`
+or any other combinations (only * supported)
 
 4. To get help, type `help` or `?`
 
@@ -23,7 +19,6 @@ After indices are written to disk, you can type your query and get results back.
 
 User input is cleaned up from special characters, lower-cased, and finally parsed for Boolean, Phrase, and Wildcard queries. Any combination of query types is accepted.
 
-Authors
-------
-Rahul.A.R
-Amar Lalwani
+### Authors
+1. Rahul.A.R
+2. Amar Lalwani
