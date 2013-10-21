@@ -19,6 +19,5 @@ After indices are written to disk, you can type your query and get results back.
 
 User input is cleaned up from special characters, lower-cased, and finally parsed for Boolean, Phrase, and Wildcard queries. Any combination of query types is accepted.
 
-### Authors
-1. Rahul.A.R
-2. Amar Lalwani
+### Author
+Rahul.A.R
